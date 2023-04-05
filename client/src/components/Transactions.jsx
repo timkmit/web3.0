@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Transactions() {
-  return (
-    <div>Transactions</div>
-  )
-}
+const Transactions = () => {
+    return (
+      <h1>Transactions</h1>
+    )
+  }
+  export default Transactions;
