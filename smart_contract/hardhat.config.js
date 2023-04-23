@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // https://eth-mainnet.g.alchemy.com/v2/-6MhhwuFUEltMG2JKMnw102o6MyNeuN6
 
 require('@nomiclabs/hardhat-waffle')
@@ -11,3 +12,11 @@ module.exports = {
     }
   }
 }
+=======
+require("@nomicfoundation/hardhat-toolbox");
+
+/** @type import('hardhat/config').HardhatUserConfig */
+module.exports = {
+  solidity: "0.8.18",
+};
+>>>>>>> 6751f1e0db0d6fc7ee4acbf4585863b94711b344
